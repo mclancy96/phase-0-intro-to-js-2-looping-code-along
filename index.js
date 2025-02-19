@@ -7,6 +7,9 @@ const writeCards = (names, typeOfCard) => {
     return messages;
 }
 
-const countDown = () => {
-
+const countDown = (num) => {
+    do {
+        console.log(num);
+        num--;
+    } while (num >= 0);
 }
